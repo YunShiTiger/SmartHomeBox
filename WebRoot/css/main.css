@@ -1,0 +1,726 @@
+/****************html和body属性*********************/
+html, body{ 
+	margin:0; 
+	height:100%; 
+	width:100%;
+	
+	
+}
+.Wallpaper{
+	height:100%; 
+	width:100%;
+	z-index:-1;
+	position:absolute;
+	left:0%;
+	top:0%;
+}
+
+/****************客厅页面*********************/
+#Page_Keting{
+	width:100%;
+	height:100%;
+	
+}
+#Keting_right_Control_Page{
+	width:100%;
+	height:100%;
+}
+#Keting_right_Figure_Page{
+	width:100%;
+	height:100%;
+}
+
+/****************卧室页面*********************/
+#Page_Bedroom{
+	width:100%;
+	height:100%;
+	
+}
+#Bedroom_right_Figure_Page{
+	width:100%;
+	height:100%;
+}
+#Bedroom_right_Control_Page{
+	width:100%;
+	height:100%;
+}
+
+
+/****************阳台页面*********************/
+#Page_Yangtai{
+	width:100%;
+	height:100%;
+	
+}
+
+/****************厨房页面*********************/
+#Page_Kitchen{
+	width:100%;
+	height:100%;
+	
+}
+#Kitchen_right_Control_Page{
+	width:100%;
+	height:100%;
+}
+#Kitchen_right_Figure_Q2_Page{
+	width:100%;
+	height:100%;
+}
+#Kitchen_right_Figure_Q4_Page{
+	width:100%;
+	height:100%;
+}
+
+/****************卫生间页面*********************/
+#Page_Toilet{
+	width:100%;
+	height:100%;
+	
+}
+#Toilet_right_Control_Page{
+	width:100%;
+	height:100%;
+}
+#Toilet_right_Figure_Page{
+	width:100%;
+	height:100%;
+}
+
+/****************安防页面*********************/
+#Page_Security{
+	width:100%;
+	height:100%;
+	
+}
+
+
+/****************阳台页面*********************/
+#Page_Yangtai{
+	width:100%;
+	height:100%;
+	
+}
+
+
+
+/****************左侧菜单导向*********************/
+.Left_guide{
+	width:8%;
+	height:100%;
+/*	background-color:#D7CCC8;  */
+  	float:left;    /*左浮动*/
+	
+/*	background-image:url(img/左侧菜单背景图.jpg);  */
+}
+
+
+/****************上方标题栏*********************/
+.Top_Title{
+	width:92%;
+	height:13%; 
+/*	background-color:#F18E7C;    ***/
+	float:right;
+}
+
+
+/****************中间内容栏*********************/
+.Middle_Content{
+	width:92%;
+	height:72%;
+/*	background-color:#55B15E;   ***/
+	float:right;
+}
+
+
+/****************底部选择栏*********************/
+.Bottom_Choice{
+	width:92%;
+	height:15%;
+/*	background-color:#E2EDF8;     ***/
+	float:right;
+}
+
+/****************左侧气泡按钮*********************/
+.bubble_box{
+	width:100%;	
+	height:14%;
+/*	background-color:#546483;
+	border: 1px solid;      */
+	margin-top:10%;  /*盒子之间的距离*/
+}
+.roundness_bubble_button{
+	width:80%;	
+	height:80%;
+/*	background-color:#546483;	*/
+	margin-top:8%;   /*距离气泡盒子上方的距离*/
+	margin-left:10%;   /*距离气泡盒子上方的距离*/
+	z-index:2;
+}
+
+
+
+/*******************************客厅界面**********************************/
+.Top_Title_Table{     /*客厅标题栏*/
+	width:100%;	
+	height:100%;
+	border:0;	
+/*	background-color:#546483;	  ***/
+	text-align:center;  /*文字水平居中*/
+	font-size: 200%;   /*标题文字大小*/
+	
+}
+#TV_Control_View{  /*电视控制面板*/
+	width:38%;	
+	height:60%;
+/*	background-color:#86CDF9;     ***/
+  	margin-top:8%;  
+	margin-left:30%; 
+	
+}
+#TV_background,#TVOpen_picture,#MVOpen_picture,#MusicOpen_picture{
+	width:100%;	
+	height:100%;
+	z-index:1;
+}
+.TV_Botton{    /*电视按钮*/
+	width:12%;	
+	height:12%;
+	
+}
+#TVClose{
+	width:4.4%;	
+	height:9%;
+	float:left;
+	position:absolute;
+	left:51%;
+	top:52.8%;
+	z-index:2;
+}
+#TVOpen{
+	width:8%;	
+	height:16%;
+	float:left;
+	position:absolute;
+	left:40.7%;
+	top:35.8%;
+	z-index:2;
+}
+#MVOpen{
+	width:4.7%;	
+	height:10%;
+	float:left;
+	position:absolute;
+	left:50.7%;
+	top:39.5%;
+	z-index:2;
+}
+#MusicOpen{
+	width:7%;	
+	height:12%;
+	float:left;
+	position:absolute;
+	left:58%;
+	top:37.8%;
+	z-index:2;
+}
+#Air_Control_View{  /*空调控制面板*/
+	width:16%;	
+	height:70%;
+/*	background-color:#86CDF9;     ***/
+  	position:absolute;
+  	top:15%;
+  	left:81%;	
+}
+#Air_background{
+	width:100%;	
+	height:100%;	
+} 
+#AirOpen{
+	width:25.8%;	
+	height:10%;
+	float:left;
+	position:absolute;
+	left:20.5%;
+	top:31.3%;
+	z-index:2;
+}
+#AirClose{
+	width:25.8%;	
+	height:10%;
+	float:left;
+	position:absolute;
+	left:52.5%;
+	top:31.3%;
+	z-index:2;
+}
+#VariableLed_Control_View{ /*可变灯控制面板*/
+	width:12%;	
+	height:25%;
+/*	background-color:#86CDF9;      ***/
+  	position:absolute;
+  	top:45%;
+  	left:13%;	
+}
+#VariableLed_Close_background,#VariableLed_Open_background{
+	width:100%;	
+	height:100%;
+}
+#ParlorLedOpen{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:27.5%;
+	top:55.3%;
+}
+#ParlorLedClose{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:49.5%;
+	top:55.3%;
+}
+#BigLed_Control_View{ /*灯带控制面板*/
+	width:15%;	
+	height:10%;
+/*	background-color:#B48380;     ***/
+  	position:absolute;
+  	top:25%;
+  	left:12%;	
+}
+#BigLed_Close_background,#BigLed_Open_background{
+	width:100%;	
+	height:100%;
+}
+#BigLedOpen{
+	width:17%;	
+	height:40%;
+	position:absolute;
+	left:26.5%;
+	top:35.3%;
+}
+#BigLedClose{
+	width:17%;	
+	height:40%;
+	position:absolute;
+	left:55.5%;
+	top:35.3%;
+}
+
+.Temperature_View{ /*温度显示面板*/
+	width:8%;	
+	height:30%;
+/*	background-color:#FDB200;    ***/    
+  	position:absolute;
+  	top:36%;
+  	left:15%;	
+}
+.Temperature_Picture{
+	width:100%;	
+	height:100%;
+	position:absolute;
+	left:0%;
+	top:0%;
+	z-index:1;
+}
+.Temperature_Value{
+	position:absolute;
+	left:29%;
+	top:81%;
+	z-index:2;
+}
+.Humidity_View{ /*湿度显示面板*/
+	width:11%;	
+	height:30%;
+/*	background-color:#FDB200;    ***/
+  	position:absolute;
+  	top:36%;
+  	left:82%;	
+}
+.Humidity_Picture{
+	width:100%;	
+	height:100%;
+	position:absolute;
+	left:0%;
+	top:0%;
+	z-index:1;
+}
+.Humidity_Value{
+	position:absolute;
+	left:33%;
+	top:62%;
+	z-index:2;
+}
+.Figure_View{  /*曲线显示面板*/
+	margin-top:2%;  
+	
+}
+
+/**************************卧室面板*********************************/
+#BedroomLed_Control_View{ /*卧室灯控制面板*/
+	width:24%;	
+	height:50%;
+/*	background-color:#86CDF9;    ***/
+  	position:absolute;
+  	top:33%;
+  	left:40%;	
+}
+#BedroomLed_Close_background,#BedroomLed_Open_background{
+	width:100%;	
+	height:100%;
+}
+#BedroomLedOpen{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:27.5%;
+	top:55.3%;
+}
+#BedroomLedClose{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:49.5%;
+	top:55.3%;
+}
+
+/**************************厨房面板*********************************/
+#KitchenLed_Control_View{ /*厨房灯控制面板*/
+	width:24%;	
+	height:50%;
+/*	background-color:#86CDF9;    ***/
+  	position:absolute;
+  	top:28%;
+  	left:20%;	
+}
+#KitchenLed_Close_background,#KitchenLed_Open_background{
+	width:100%;	
+	height:100%;
+}
+#KitchenLedOpen{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:27.5%;
+	top:55.3%;
+}
+#KitchenLedClose{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:49.5%;
+	top:55.3%;
+}
+#KitchenFan_Control_View{ /*厨房风扇控制面板*/
+	width:24%;	
+	height:50%;
+/*	background-color:#86CDF9;     ***/
+  	position:absolute;
+  	top:28%;
+  	left:60%;	
+}
+#KitchenFan_Close_background,#KitchenFan_Open_background{
+	width:120%;	
+	height:120%;
+	margin-top:6%;  
+	margin-left:-10%; 
+}
+#KitchenFanOpen{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:27.5%;
+	top:60.3%;
+}
+#KitchenFanClose{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:49.5%;
+	top:60.3%;
+}
+
+/**************************卫生间面板*********************************/
+#ToiletLed_Control_View{ /*卫生间灯控制面板*/
+	width:24%;	
+	height:50%;
+/*	background-color:#86CDF9;     ***/
+  	position:absolute;
+  	top:28%;
+  	left:20%;	
+}
+#ToiletLed_Close_background,#ToiletLed_Open_background{
+	width:100%;	
+	height:100%;
+}
+#ToiletLedOpen{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:27.5%;
+	top:55.3%;
+}
+#ToiletLedClose{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:49.5%;
+	top:55.3%;
+}
+#ToiletFan_Control_View{ /*卫生间风扇控制面板*/
+	width:24%;	
+	height:50%;
+/*	background-color:#86CDF9;    ***/
+  	position:absolute;
+  	top:28%;
+  	left:60%;	
+}
+#ToiletFan_Close_background,#ToiletFan_Open_background{
+	width:120%;	
+	height:120%;
+	margin-top:6%;  
+	margin-left:-10%; 
+}
+#ToiletFanOpen{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:27.5%;
+	top:60.3%;
+}
+#ToiletFanClose{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:49.5%;
+	top:60.3%;
+}
+
+/**************************阳台面板*********************************/
+#BalconyLed_Control_View{ /*阳台灯控制面板*/
+	width:24%;	
+	height:50%;
+/*	background-color:#86CDF9;    ***/
+  	position:absolute;
+  	top:28%;
+  	left:20%;	
+}
+#BalconyLed_Close_background,#BalconyLed_Open_background{
+	width:100%;	
+	height:100%;
+}
+#BalconyLedOpen{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:27.5%;
+	top:55.3%;
+}
+#BalconyLedClose{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:49.5%;
+	top:55.3%;
+}
+#Curtain_Control_View{ /*阳台窗帘控制面板*/
+	width:24%;	
+	height:50%;
+/*	background-color:#86CDF9;    ***/
+  	position:absolute;
+  	top:28%;
+  	left:60%;	
+}
+#Curtain_Close_background,#Curtain_Open_background{
+	width:100%;	
+	height:100%;
+	margin-top:0%;  
+	margin-left:0%; 
+}
+#CurtainOpen{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:27.5%;
+	top:60.3%;
+}
+#CurtainClose{
+	width:22%;	
+	height:15%;
+	position:absolute;
+	left:49.5%;
+	top:60.3%;
+}
+
+/**************************烟雾值表格*********************************/
+.Smoke_Table{
+	width:8%;	
+	height:13%;
+	position:absolute;
+	left:19.5%;
+	top:34.9%;
+	background-color:#86CDF9;  
+	border: 2px solid #007eff; 
+	text-shadow: 1px 1px 1px #86CDF9;   /*文字有阴影*/
+}
+.Smoke_Table_1{
+	background-color:#FF692F;  
+	border: 2px solid #007eff;  
+	text-align:center;
+}
+.Smoke_Table_2{	
+	background-color:#E9ABA4;  
+	border: 2px solid #007eff;  
+	text-align:center;
+}
+
+/**************************安防界面*********************************/
+/**安防数据表格**/
+.Security_Table{
+	width:100%;	
+	height:100%;
+/*	background-color:#86CDF9;    */
+	border: 2px solid #007eff; 
+	text-shadow: 1px 1px 1px #86CDF9;   /*文字有阴影*/
+}
+.Security_Table_1{
+	background-color:#FF692F;  
+	border: 2px solid #007eff;  
+	text-align:center;
+}
+.Security_Table_2{	
+	background-color:#E9ABA4;  
+	border: 2px solid #007eff;  
+	text-align:center;
+}
+.Door_View{ /*门磁显示面板*/
+	width:7%;	
+	height:25%;
+	background-color:#FDB200;    
+  	position:absolute;
+  	top:16%;
+  	left:70%;	
+}   
+.Door_Picture{
+	width:100%;	
+	height:100%;
+	position:absolute;
+	left:0%;
+	top:0%;
+	z-index:1;
+}
+.Door_Value{
+	width:80%;	
+	height:40%;
+	background-color:#FDB200;    
+	position:absolute;
+	left:113%;
+	top:33%;
+	z-index:2;
+}
+.Hongwai_View{ /*红外显示面板*/
+	width:8%;	
+	height:15%;
+/*	background-color:#FDB200;   */
+  	position:absolute;
+  	top:46%;
+  	left:69.7%;	
+}   
+.Hongwai_Picture{
+	width:100%;	
+	height:100%;
+	position:absolute;
+	left:0%;
+	top:0%;
+	z-index:1;
+}
+.Hongwai_Value{
+	width:70%;	
+	height:65%;
+	background-color:#FDB200; 
+	position:absolute;
+	left:102%;
+	top:20%;
+	z-index:2;
+}
+.Fire_View{ /*火焰显示面板*/
+	width:8%;	
+	height:19.5%;
+/*	background-color:#FDB200;   */
+  	position:absolute;
+  	top:65%;
+  	left:69.7%;	
+}   
+.Fire_Picture{
+	width:100%;	
+	height:100%;
+	position:absolute;
+	left:0%;
+	top:0%;
+	z-index:1;
+}
+.Fire_Value{
+	width:70%;	
+	height:48%;
+	background-color:#FDB200; 
+	position:absolute;
+	left:102%;
+	top:36%;
+	z-index:2;
+}
+/**摄像头**/
+.Camera_View{
+	width:53%;	
+	height:83%;
+/*	background-color:#A73D55;    ***/
+	margin-top:2%;  
+	margin-left:5%;
+}
+.Camera_Title_Table{
+	width:100%;	
+	height:10%;
+	border:0;	
+/*	background-color:#546483;	 ***/  
+	text-align:center;  /*文字水平居中*/
+	font-size: 150%;   /*标题文字大小*/
+}
+.Camera_Picture{
+	width:100%;	
+	height:90%;
+/*	background-color:#78BC57;    ***/
+	 	  
+}
+
+/**************************底部按钮*********************************/
+.Bottom_Page_Button_Picture{
+	width:50%;	
+	height:90%;
+/*	background-color:#86CDF9;    ***/
+	margin-left:28%;
+}
+.Control_Bottom_button{
+	width:15%;	
+	height:88%;
+	margin-left:10%;
+}
+.Figure_Bottom_button{
+	width:21%;	
+	height:88%;
+	margin-left:20%;
+}
+/**********厨房底部控制按钮***********/
+.Control_Q2Q4_Bottom_button{
+	width:15%;	
+	height:88%;
+	margin-left:1%;
+}
+.Figure_Q2_Bottom_button{
+	width:21%;	
+	height:88%;
+	margin-left:16%;
+}
+.Figure_Q4_Bottom_button{
+	width:21%;	
+	height:88%;
+	margin-left:12%;
+}

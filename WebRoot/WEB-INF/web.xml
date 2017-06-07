@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+   <listener>
+   <listener-class>UdpServer.SendGetUdp</listener-class>
+  </listener>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SendControlData</servlet-name>
+    <servlet-class>Control.SendControlData</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+ 	<servlet-name>SmartHomeBox</servlet-name>
+    <servlet-class>WebRoot.index</servlet-class>
+    </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AnalyzeServer</servlet-name>
+    <servlet-class>Control.AnalyzeServer</servlet-class>
+  </servlet>
+  
+
+
+
+
+    <servlet-mapping>
+    <servlet-name>SmartHomeBox</servlet-name>
+    <url-pattern>/SmartHomeBox</url-pattern>
+    </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendControlData</servlet-name>
+    <url-pattern>/servlet/SendControlData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnalyzeServer</servlet-name>
+    <url-pattern>/servlet/AnalyzeServer</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,471 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>智能家居控制</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  	<link rel="stylesheet" href="css/main.css" type="text/css"></link>
+  </head>
+ 
+ <body> 
+ 
+<img class=Wallpaper src="img/壁纸.jpg" /> 
+ 
+  
+<!--------------------- 客厅页面 -----------------------------> 
+  <div id=Page_Keting>
+  		<div class="Left_guide"  >  <!-- 左侧选项栏  -->
+  			
+  			<div class="bubble_box">   <input type="image" id=Keting_Keting_button  class="roundness_bubble_button"  src="img/客厅菜单--客厅按钮.png"/>  </div>
+	  		
+	  		<div class="bubble_box">  <input type="image" id=Bedroom_Keting_button class="roundness_bubble_button" src="img/客厅菜单--卧室按钮.png"/>  </div>
+	  		
+	  		<div class="bubble_box">  <input type="image" id=Yangtai_Keting_button  class="roundness_bubble_button"  src="img/客厅菜单--阳台按钮.png"/>  </div>
+	  		
+	  		<div class="bubble_box">  <input type="image" id=Kitchen_Keting_button  class="roundness_bubble_button"  src="img/客厅菜单--厨房按钮.png"/>  </div>
+	  		
+	  		<div class="bubble_box">  <input type="image" id=Toilet_Keting_button  class="roundness_bubble_button"  src="img/客厅菜单--卫生间按钮.png"/>  </div>
+	  		
+	  		<div class="bubble_box">  <input type="image" id=Security_Keting_button  class="roundness_bubble_button"    src="img/客厅菜单--安防按钮.png"/>  </div>
+	  		
+  		</div>
+  		
+  		
+  		<div id=Keting_right_Control_Page>    <!------------ 客厅右侧控制页面 -------------->
+  			<div class="Top_Title">    <!-- 上方标题栏  -->	  			
+	  				<table class="Top_Title_Table">
+	  					<tr><td>客厅--控制窗口</td></tr>
+	  				</table>	  						
+	  		</div>
+	  		
+	  		<div class="Middle_Content">    <!-- 中间内容栏  -->	  			
+	   				<div id=TV_Control_View>   <!-- 电视界面 -->
+	   					 <img id=TV_background src="img/KetingPageImage/电视机.png" /> 
+	   					 <img id=TVOpen_picture src="img/KetingPageImage/电视开效果.gif" /> 
+	   					 <img id=MVOpen_picture src="img/KetingPageImage/MV开效果.gif" /> 
+	   					 <img id=MusicOpen_picture src="img/KetingPageImage/音乐开效果.gif" /> 
+	   					 <input type="image" id=TVClose class="TV_Botton" src="img/KetingPageImage/关闭电视按钮.png"/> 
+	   					 <input type="image" id=TVOpen class="TV_Botton" src="img/KetingPageImage/电视图标.png"/> 
+	   					 <input type="image" id=MVOpen class="TV_Botton" src="img/KetingPageImage/MV图标.png"/>
+	   					 <input type="image" id=MusicOpen class="TV_Botton" src="img/KetingPageImage/音乐图标.png"/> 
+	   				</div>
+	   				
+	   				<div id=Air_Control_View>   <!-- 空调界面 -->
+	   					<img id=Air_background src="img/KetingPageImage/空调.png" /> 
+	   					 <input type="image" id=AirOpen  src="img/KetingPageImage/空调开按钮.png"/> 
+	   					 <input type="image" id=AirClose  src="img/KetingPageImage/空调关按钮.png"/> 	
+	   				</div>
+	   				
+	   				<div id=VariableLed_Control_View> <!-- 可变灯界面 -->
+	   					<img id=VariableLed_Close_background src="img/KetingPageImage/台灯关.png" /> 
+	   					<img id=VariableLed_Open_background src="img/KetingPageImage/台灯开.gif" /> 
+	   					 <input type="image" id=ParlorLedOpen  src="img/KetingPageImage/绿色开按钮.png"/> 
+	   					 <input type="image" id=ParlorLedClose  src="img/KetingPageImage/红色关按钮.png"/> 
+	   				</div>
+	   				
+	   				<div id=BigLed_Control_View> <!-- 灯带界面 -->
+	   					<img id=BigLed_Close_background src="img/KetingPageImage/灯带关.png" /> 
+	   					<img id=BigLed_Open_background src="img/KetingPageImage/灯带开.gif" /> 
+	   					<input type="image" id=BigLedOpen  src="img/KetingPageImage/绿色开按钮.png"/> 
+	   					 <input type="image" id=BigLedClose  src="img/KetingPageImage/红色关按钮.png"/> 
+	   				</div>
+	   				
+		   	</div>	
+	  		
+	  		
+	  		<div class="Bottom_Choice">    <!-- 底部选项栏  -->
+	  			<div id=Keting_Control_Bottom_Page class=Bottom_Page_Button_Picture>
+	  				<input type="image" id=Control_Page_Control_Keting_Bottom_button class=Control_Bottom_button src="img/BottomImage/控制界面开按钮.gif"/>
+	  				<input type="image" id=Control_Page_Figure_Keting_Bottom_button class=Figure_Bottom_button src="img/BottomImage/曲线图界面关按钮.png"/>
+	  			</div>
+	  		</div>
+  			
+  		
+  		</div>
+  		
+ 		<div id=Keting_right_Figure_Page>    <!------------ 客厅右侧曲线图页面 -------------->
+  			<div class="Top_Title">    <!-- 上方标题栏  -->	  			
+	  				<table class="Top_Title_Table">
+	  					<tr><td>客厅--曲线图</td></tr>
+	  				</table>	  						
+	  		</div>
+	  		
+	  		<div class="Middle_Content">    <!-- 中间内容栏  -->		
+		   		<div id=Keting_Figure_View>
+			   		<div class=Figure_View>
+			   		<div id=KetingTable style="width:700px;height:400px;margin:0 auto;">	</div>
+			   		</div>
+			   		<div class=Temperature_View>   <!-- 温度显示界面 -->
+			   			<img class=Temperature_Picture src="img/KetingPageImage/温度图标.png" /> 
+			   			<div  class=Temperature_Value><span id=ParlorTemperatureValue >0.0</span><span> °C</span></div>
+			   		</div>
+			   		<div class=Humidity_View>   <!-- 湿度显示界面 -->
+			   			<img class=Humidity_Picture src="img/KetingPageImage/湿度图标.png" /> 
+			   			<div  class=Humidity_Value><span id=ParlorHumidityValue >0.0</span><span> %rh</span></div>
+			   		</div>	
+		   		</div>		   		
+	  		</div>
+	  		
+	  		<div class="Bottom_Choice">    <!-- 底部选项栏  -->
+	  			<div id=Keting_Figure_Bottom_Page  class=Bottom_Page_Button_Picture>
+	  				<input type="image" id=Figure_Page_Control_Keting_Bottom_button class=Control_Bottom_button src="img/BottomImage/控制界面关按钮.png"/>
+	  				<input type="image" id=Figure_Page_Figure_Keting_Bottom_button class=Figure_Bottom_button src="img/BottomImage/曲线界面开按钮.gif"/>
+	  			</div>                          
+	  		</div>
+  		</div>
+  		
+  		
+  		
+	  		
+  		
+  
+  </div>
+
+
+<!---------------------------------- 卧室 ----------------------------------->
+  <div id=Page_Bedroom>
+  		<div class="Left_guide"  >  <!-- 左侧选项栏  -->
+  			<div class="bubble_box">  <input type="image" id=Keting_Bedroom_button  class="roundness_bubble_button"  src="img/客厅菜单--客厅按钮.png"/>  </div>
+	  		
+	  		<div class="bubble_box">  <input type="image" id=Bedroom_Bedroom_button class="roundness_bubble_button" src="img/客厅菜单--卧室按钮.png"/>  </div>
+	  		
+	  		<div class="bubble_box">  <input type="image" id=Yangtai_Bedroom_button  class="roundness_bubble_button"  src="img/客厅菜单--阳台按钮.png"/>  </div>
+	  		
+	  		<div class="bubble_box">  <input type="image" id=Kitchen_Bedroom_button  class="roundness_bubble_button"  src="img/客厅菜单--厨房按钮.png"/>  </div>
+	  		
+	  		<div class="bubble_box">  <input type="image" id=Toilet_Bedroom_button  class="roundness_bubble_button"  src="img/客厅菜单--卫生间按钮.png"/>  </div>
+	  		
+	  		<div class="bubble_box">  <input type="image" id=Security_Bedroom_button  class="roundness_bubble_button"    src="img/客厅菜单--安防按钮.png"/>  </div>
+	  		
+  		</div>
+  		<div id=Bedroom_right_Control_Page>    <!------------ 卧室右侧控制页面 -------------->
+  			<div class="Top_Title">    <!-- 上方标题栏  -->	  			
+	  				<table class="Top_Title_Table">
+	  					<tr><td>卧室--控制窗口</td></tr>
+	  				</table>	  						
+	  		</div>
+	  		<div class="Middle_Content">    <!-- 中间内容栏  -->
+	  			<div id=BedroomLed_Control_View> <!-- 卧室灯界面 -->
+	   					<img id=BedroomLed_Close_background src="img/KetingPageImage/台灯关.png" /> 
+	   					<img id=BedroomLed_Open_background src="img/KetingPageImage/台灯开.gif" /> 
+	   					 <input type="image" id=BedroomLedOpen  src="img/KetingPageImage/绿色开按钮.png"/> 
+	   					 <input type="image" id=BedroomLedClose  src="img/KetingPageImage/红色关按钮.png"/> 
+	   			</div>
+	  		</div>
+	  		
+	  		<div class="Bottom_Choice">    <!-- 底部选项栏  -->
+	  			<div id=Bedroom_Control_Bottom_Page class=Bottom_Page_Button_Picture>
+	  				<input type="image" id=Control_Page_Control_Bedroom_Bottom_button class=Control_Bottom_button src="img/BottomImage/控制界面开按钮.gif"/>
+	  				<input type="image" id=Control_Page_Figure_Bedroom_Bottom_button class=Figure_Bottom_button src="img/BottomImage/曲线图界面关按钮.png"/>
+	  			</div>
+	  		</div>
+  		</div>
+  		
+  		<div id=Bedroom_right_Figure_Page>   <!------------ 卧室右侧曲线图页面 -------------->
+  			<div class="Top_Title">    <!-- 上方标题栏  -->	  			
+	  				<table class="Top_Title_Table">
+	  					<tr><td>卧室--曲线图</td></tr>
+	  				</table>	  						
+	  		</div>
+	  		
+	  		<div class="Middle_Content">    <!-- 中间内容栏  -->
+		   		<div class=Figure_View>  <!-- 曲线图显示界面 -->
+		   			<div id=BedroomTable style="width:700px;height:400px;margin:0 auto;">	</div>
+		   		</div>
+		   		<div class=Temperature_View>   <!-- 温度显示界面 -->
+		   			<img class=Temperature_Picture src="img/KetingPageImage/温度图标.png" /> 
+		   			<div  class=Temperature_Value><span id=BedroomTemperatureValue >0.0</span><span> °C</span></div>
+		   		</div>
+		   		<div class=Humidity_View>   <!-- 湿度显示界面 -->
+		   			<img class=Humidity_Picture src="img/KetingPageImage/湿度图标.png" /> 
+		   			<div  class=Humidity_Value><span id=BedroomHumidityValue >0.0</span><span> %rh</span></div>
+		   		</div>	
+	  		</div>
+	  		
+	  		<div class="Bottom_Choice">    <!-- 底部选项栏  -->
+	  			<div id=Bedroom_Figure_Bottom_Page  class=Bottom_Page_Button_Picture>
+	  				<input type="image" id=Figure_Page_Control_Bedroom_Bottom_button class=Control_Bottom_button src="img/BottomImage/控制界面关按钮.png"/>
+	  				<input type="image" id=Figure_Page_Figure_Bedroom_Bottom_button class=Figure_Bottom_button src="img/BottomImage/曲线界面开按钮.gif"/>
+	  			</div>    
+	  		</div>
+  		</div>
+  		
+  </div>
+  
+<!---------------------------------- 阳台 ----------------------------------->
+  <div id=Page_Yangtai>
+  		<div class="Left_guide"  >  <!-- 左侧选项栏  -->
+  			<div class="bubble_box">  <input type="image" id=Keting_Yangtai_button  class="roundness_bubble_button"  src="img/客厅菜单--客厅按钮.png"/>  </div>	
+	  		<div class="bubble_box">  <input type="image" id=Bedroom_Yangtai_button class="roundness_bubble_button" src="img/客厅菜单--卧室按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Yangtai_Yangtai_button  class="roundness_bubble_button"  src="img/客厅菜单--阳台按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Kitchen_Yangtai_button  class="roundness_bubble_button"  src="img/客厅菜单--厨房按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Toilet_Yangtai_button  class="roundness_bubble_button"  src="img/客厅菜单--卫生间按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Security_Yangtai_button  class="roundness_bubble_button"    src="img/客厅菜单--安防按钮.png"/>  </div>	  		
+  		</div>
+  		
+  		<div class="Top_Title">    <!-- 上方标题栏  -->	  			
+  				<table class="Top_Title_Table">
+  					<tr><td>阳台</td></tr>
+  				</table>	  						
+  		</div>
+  		
+  		<div class="Middle_Content">    <!-- 中间内容栏  -->
+  			<div id=BalconyLed_Control_View> <!-- 阳台灯界面 -->
+				<img id=BalconyLed_Close_background src="img/KetingPageImage/台灯关.png" /> 
+				<img id=BalconyLed_Open_background src="img/KetingPageImage/台灯开.gif" /> 
+				<input type="image" id=BalconyLedOpen  src="img/KetingPageImage/绿色开按钮.png"/> 
+				<input type="image" id=BalconyLedClose  src="img/KetingPageImage/红色关按钮.png"/> 
+   			</div>
+   			<div id=Curtain_Control_View> <!-- 阳台窗帘界面 -->
+				<img id=Curtain_Close_background src="img/YangtaiImage/窗帘状态0.jpg" /> 
+				<img id=Curtain_Open_background src="img/YangtaiImage/窗帘打开.gif" /> 
+				<input type="image" id=CurtainOpen  src="img/KetingPageImage/绿色开按钮.png"/> 
+				<input type="image" id=CurtainClose  src="img/KetingPageImage/红色关按钮.png"/> 
+   			</div>
+  		</div>
+  		
+  		<div class="Bottom_Choice">    <!-- 底部选项栏  -->
+  			
+  		</div>
+  </div>
+  
+ <!---------------------------------- 厨房 ----------------------------------->
+  <div id=Page_Kitchen>
+  		<div class="Left_guide"  >  <!-- 左侧选项栏  -->
+  			<div class="bubble_box">  <input type="image" id=Keting_Kitchen_button  class="roundness_bubble_button"  src="img/客厅菜单--客厅按钮.png"/>  </div>	
+	  		<div class="bubble_box">  <input type="image" id=Bedroom_Kitchen_button class="roundness_bubble_button" src="img/客厅菜单--卧室按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Yangtai_Kitchen_button  class="roundness_bubble_button"  src="img/客厅菜单--阳台按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Kitchen_Kitchen_button  class="roundness_bubble_button"  src="img/客厅菜单--厨房按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Toilet_Kitchen_button  class="roundness_bubble_button"  src="img/客厅菜单--卫生间按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Security_Kitchen_button  class="roundness_bubble_button"    src="img/客厅菜单--安防按钮.png"/>  </div>	  		
+  		</div>
+  		<div id=Kitchen_right_Control_Page>    <!------------ 厨房右侧控制页面 -------------->
+  			<div class="Top_Title">    <!-- 上方标题栏  -->	  			
+	  				<table class="Top_Title_Table">
+	  					<tr><td>厨房--控制窗口</td></tr>
+	  				</table>	  						
+	  		</div>
+
+	  		<div class="Middle_Content">    <!-- 中间内容栏  -->
+	  			
+	  			<div id=KitchenLed_Control_View> <!-- 厨房灯界面 -->
+   					<img id=KitchenLed_Close_background src="img/KetingPageImage/台灯关.png" /> 
+   					<img id=KitchenLed_Open_background src="img/KetingPageImage/台灯开.gif" /> 
+   					<input type="image" id=KitchenLedOpen  src="img/KetingPageImage/绿色开按钮.png"/> 
+   					<input type="image" id=KitchenLedClose  src="img/KetingPageImage/红色关按钮.png"/> 
+	   			</div>
+	   			<div id=KitchenFan_Control_View> <!-- 厨房风扇界面 -->
+   					<img id=KitchenFan_Close_background src="img/CommonImage/风扇关.png" /> 
+   					<img id=KitchenFan_Open_background src="img/CommonImage/风扇开.gif" /> 
+   					<input type="image" id=KitchenFanOpen  src="img/KetingPageImage/绿色开按钮.png"/> 
+   					<input type="image" id=KitchenFanClose  src="img/KetingPageImage/红色关按钮.png"/> 
+	   			</div>
+	  		</div>
+	  		
+	  		<div class="Bottom_Choice">    <!-- 底部选项栏  -->
+	  			<div id=Kitchen_Control_Bottom_Page class=Bottom_Page_Button_Picture>
+	  				<input type="image" id=Control_Page_Control_Kitchen_Bottom_button class=Control_Q2Q4_Bottom_button src="img/BottomImage/控制界面开按钮.gif"/>
+	  				<input type="image" id=Control_Page_Figure_Q2_Kitchen_Bottom_button class=Figure_Q2_Bottom_button src="img/BottomImage/曲线图界面关按钮1.png"/>
+	  				<input type="image" id=Control_Page_Figure_Q4_Kitchen_Bottom_button class=Figure_Q4_Bottom_button src="img/BottomImage/曲线图界面关按钮2.png"/>
+	  			</div>
+	  		</div>
+  		</div>
+  		
+  		<div id=Kitchen_right_Figure_Q2_Page>  <!------------ 卧室右侧曲线图Q2页面 -------------->
+  			<div class="Top_Title">    <!-- 上方标题栏  -->	  			
+	  				<table class="Top_Title_Table">
+	  					<tr><td>厨房--Q2曲线图</td></tr>
+	  				</table>	  						
+	  		</div>
+	  		
+	  		<div class="Middle_Content">    <!-- 中间内容栏  -->
+	  			
+	  			<div class=Figure_View>  <!-- 曲线图显示界面 -->
+		   			<div id=KitchenQ2Table style="width:700px;height:400px;margin:0 auto;">	</div>
+		   		</div>
+	  			
+		  		<table class="Smoke_Table">
+	  					<tr class="Smoke_Table_1"><td>烟雾值</td></tr>
+	  					<tr class="Smoke_Table_2"><td><span id=MQ2Value >0.0</span><span> ppm</span></td></tr>
+	  			</table>
+		  		
+	  		</div>
+	  		
+	  		<div class="Bottom_Choice">    <!-- 底部选项栏  -->
+	  			<div id=Kitchen_Figure_Q2_Bottom_Page class=Bottom_Page_Button_Picture>
+	  				<input type="image" id=Figure_Q2_Page_Control_Kitchen_Bottom_button class=Control_Q2Q4_Bottom_button src="img/BottomImage/控制界面关按钮.png"/>
+	  				<input type="image" id=Figure_Q2_Page_Figure_Q2_Kitchen_Bottom_button class=Figure_Q2_Bottom_button src="img/BottomImage/曲线界面开按钮1.gif"/>
+	  				<input type="image" id=Figure_Q2_Page_Figure_Q4_Kitchen_Bottom_button class=Figure_Q4_Bottom_button src="img/BottomImage/曲线图界面关按钮2.png"/>
+	  			</div>
+	  		</div>
+  		</div>
+  		
+  		<div id=Kitchen_right_Figure_Q4_Page>  <!------------ 卧室右侧曲线图Q4页面 -------------->
+  			<div class="Top_Title">    <!-- 上方标题栏  -->	  			
+	  				<table class="Top_Title_Table">
+	  					<tr><td>厨房--Q4曲线图</td></tr>
+	  				</table>	  						
+	  		</div>
+	  		
+	  		<div class="Middle_Content">    <!-- 中间内容栏  -->
+		  		<div class=Figure_View>  <!-- 曲线图显示界面 -->
+		   			<div id=KitchenQ4Table style="width:700px;height:400px;margin:0 auto;">	</div>
+		   		</div>
+				<table class="Smoke_Table">
+	  					<tr class="Smoke_Table_1"><td>烟雾值</td></tr>
+	  					<tr class="Smoke_Table_2"><td><span id=MQ4Value >0.0</span><span> ppm</span></td></tr>
+	  			</table>
+	  		</div>
+	  		
+	  		<div class="Bottom_Choice">    <!-- 底部选项栏  -->
+	  			<div id=Kitchen_Figure_Q4_Bottom_Page class=Bottom_Page_Button_Picture>
+	  				<input type="image" id=Figure_Q4_Page_Control_Kitchen_Bottom_button class=Control_Q2Q4_Bottom_button src="img/BottomImage/控制界面关按钮.png"/>
+	  				<input type="image" id=Figure_Q4_Page_Figure_Q2_Kitchen_Bottom_button class=Figure_Q2_Bottom_button src="img/BottomImage/曲线图界面关按钮1.png"/>
+	  				<input type="image" id=Figure_Q4_Page_Figure_Q4_Kitchen_Bottom_button class=Figure_Q4_Bottom_button src="img/BottomImage/曲线界面开按钮2.gif"/>
+	  			</div>
+	  		</div>
+  		</div>	
+  </div>
+  
+  <!---------------------------------- 卫生间 ----------------------------------->
+  <div id=Page_Toilet>
+  		<div class="Left_guide"  >  <!-- 左侧选项栏  -->
+  			<div class="bubble_box">  <input type="image" id=Keting_Toilet_button  class="roundness_bubble_button"  src="img/客厅菜单--客厅按钮.png"/>  </div>	
+	  		<div class="bubble_box">  <input type="image" id=Bedroom_Toilet_button class="roundness_bubble_button" src="img/客厅菜单--卧室按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Yangtai_Toilet_button  class="roundness_bubble_button"  src="img/客厅菜单--阳台按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Kitchen_Toilet_button  class="roundness_bubble_button"  src="img/客厅菜单--厨房按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Toilet_Toilet_button  class="roundness_bubble_button"  src="img/客厅菜单--卫生间按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Security_Toilet_button  class="roundness_bubble_button"    src="img/客厅菜单--安防按钮.png"/>  </div>	  		
+  		</div>
+  		
+  		<div id=Toilet_right_Control_Page>    <!------------ 卫生间右侧控制页面 -------------->
+  			<div class="Top_Title">    <!-- 上方标题栏  -->	  			
+  				<table class="Top_Title_Table">
+  					<tr><td>卫生间--控制窗口</td></tr>
+  				</table>	  						
+  			</div>
+	  		
+	  		<div class="Middle_Content">    <!-- 中间内容栏  -->
+	  			<div id=ToiletLed_Control_View> <!-- 卫生间灯界面 -->
+   					<img id=ToiletLed_Close_background src="img/KetingPageImage/台灯关.png" /> 
+   					<img id=ToiletLed_Open_background src="img/KetingPageImage/台灯开.gif" /> 
+   					<input type="image" id=ToiletLedOpen  src="img/KetingPageImage/绿色开按钮.png"/> 
+   					<input type="image" id=ToiletLedClose  src="img/KetingPageImage/红色关按钮.png"/> 
+	   			</div>
+	   			<div id=ToiletFan_Control_View> <!-- 卫生间风扇界面 -->
+   					<img id=ToiletFan_Close_background src="img/CommonImage/风扇关.png" /> 
+   					<img id=ToiletFan_Open_background src="img/CommonImage/风扇开.gif" /> 
+   					<input type="image" id=ToiletFanOpen  src="img/KetingPageImage/绿色开按钮.png"/> 
+   					<input type="image" id=ToiletFanClose  src="img/KetingPageImage/红色关按钮.png"/> 
+	   			</div>
+
+	  		</div>
+	  		
+	  		<div class="Bottom_Choice">    <!-- 底部选项栏  -->
+	  			<div id=Toilet_Control_Bottom_Page class=Bottom_Page_Button_Picture>
+	  				<input type="image" id=Control_Page_Control_Toilet_Bottom_button class=Control_Bottom_button src="img/BottomImage/控制界面开按钮.gif"/>
+	  				<input type="image" id=Control_Page_Figure_Toilet_Bottom_button class=Figure_Bottom_button src="img/BottomImage/曲线图界面关按钮.png"/>
+	  			</div>
+	  		</div>
+  		</div>
+  		
+  		<div id=Toilet_right_Figure_Page>    <!------------ 卫生间右侧曲线图页面 -------------->
+  			<div class="Top_Title">    <!-- 上方标题栏  -->	  			
+  				<table class="Top_Title_Table">
+  					<tr><td>卫生间--曲线图</td></tr>
+  				</table>	  						
+  			</div>
+	  		
+	  		<div class="Middle_Content">    <!-- 中间内容栏  -->
+	  			<div class=Figure_View>  <!-- 曲线图显示界面 -->
+		   			<div id=WCQ135Table style="width:700px;height:400px;margin:0 auto;">	</div>
+		   		</div>
+		   		<table class="Smoke_Table">
+	  					<tr class="Smoke_Table_1"><td>烟雾值</td></tr>
+	  					<tr class="Smoke_Table_2"><td><span id=MQ135Value >0.0</span><span> ppm</span></td></tr>
+	  			</table>
+	  		</div>
+	  		
+	  		<div class="Bottom_Choice">    <!-- 底部选项栏  -->
+	  			<div id=Toilet_Figure_Bottom_Page  class=Bottom_Page_Button_Picture>
+	  				<input type="image" id=Figure_Page_Control_Toilet_Bottom_button class=Control_Bottom_button src="img/BottomImage/控制界面关按钮.png"/>
+	  				<input type="image" id=Figure_Page_Figure_Toilet_Bottom_button class=Figure_Bottom_button src="img/BottomImage/曲线界面开按钮.gif"/>
+	  			</div>   
+	  		</div>
+  		</div>
+  		
+	  		
+  </div>
+  
+ <!---------------------------------- 安防 ----------------------------------->
+  <div id=Page_Security>
+  		<div class="Left_guide"  >  <!-- 左侧选项栏  -->
+  			<div class="bubble_box">  <input type="image" id=Keting_Security_button  class="roundness_bubble_button"  src="img/客厅菜单--客厅按钮.png"/>  </div>	
+	  		<div class="bubble_box">  <input type="image" id=Bedroom_Security_button class="roundness_bubble_button" src="img/客厅菜单--卧室按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Yangtai_Security_button  class="roundness_bubble_button"  src="img/客厅菜单--阳台按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Kitchen_Security_button  class="roundness_bubble_button"  src="img/客厅菜单--厨房按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Toilet_Security_button  class="roundness_bubble_button"  src="img/客厅菜单--卫生间按钮.png"/>  </div>	  		
+	  		<div class="bubble_box">  <input type="image" id=Security_Security_button  class="roundness_bubble_button"    src="img/客厅菜单--安防按钮.png"/>  </div>	  		
+  		</div>
+  		<div class="Top_Title">    <!-- 上方标题栏  -->	  			
+			<table class="Top_Title_Table">
+				<tr><td>安防</td></tr>
+			</table>	  						
+		</div>
+  		
+  		<div class="Middle_Content">    <!-- 中间内容栏  -->
+  			
+  			
+  			<div class=Camera_View>   <!-- 摄像头界面 -->
+  				<table class="Camera_Title_Table">
+					<tr><td>摄像头</td></tr>
+				</table>
+				<img class="Camera_Picture" src="img/摄像头测试图片.jpg" />	
+	   			<!--  <img class="Camera_Picture" src="http://192.168.1.155:8888/?action=stream" />	 -->
+	   		</div>
+	   		
+	   		<div class=Door_View>   <!-- 门磁显示界面 -->
+	   			<img class=Door_Picture src="img/SecurityImage/关门.jpg" /> 
+	   			<div  class=Door_Value>
+		   			<table class="Security_Table">
+		  					<tr class="Security_Table_1"><td>门磁</td></tr>
+		  					<tr class="Security_Table_2"><td><span id=DoorValue >-.-</span></td></tr>
+		  			</table>
+		  		</div>
+	   		</div>	   		
+	   		<div class=Hongwai_View>   <!-- 红外显示界面 -->
+	   			<img class=Hongwai_Picture src="img/SecurityImage/红外传感器.png" /> 
+	   			<div  class=Hongwai_Value>
+		   			<table class="Security_Table">
+		  					<tr class="Security_Table_1"><td>红外</td></tr>
+		  					<tr class="Security_Table_2"><td><span id=HongwaiValue >-.-</span></td></tr>
+		  			</table>
+		  		</div>
+	   		</div>	   		
+	   		<div class=Fire_View>   <!-- 火焰显示界面 -->
+	   			<img class=Fire_Picture src="img/SecurityImage/火焰.gif" /> 
+	   			<div  class=Fire_Value>
+		   			<table class="Security_Table">
+		  					<tr class="Security_Table_1"><td>火焰</td></tr>
+		  					<tr class="Security_Table_2"><td><span id=FireValue >-.-</span></td></tr>
+		  			</table>
+		  		</div>
+	   		</div>
+	   		
+  		</div>
+  		
+  		<div class="Bottom_Choice">    <!-- 底部选项栏  -->
+  			
+  		</div>
+  </div>
+  </body>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/highcharts.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/DataTransmit.js"></script>
+<script src="js/GetAnalyzeData.js"></script>
+<script src="js/SensorDataFigure.js"></script>
+<script src="js/PageLayout.js"></script>
+</html>
